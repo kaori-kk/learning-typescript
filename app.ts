@@ -1,9 +1,11 @@
-function add(num1: number, num2: number){
-  return num1 + num2;
+const person = {
+  name: 'Kaori',
+  age: 24,
+  hobbies: ['sports', 'music']
 }
 
-const number1 = 3.4
-const number2 = 5.9
+console.log(person)
 
-const result = add(number1, number2);
-console.log(result)
+for(const hobby of person.hobbies){
+  console.log(hobby.toUpperCase())
+}
