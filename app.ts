@@ -1,11 +1,9 @@
-const person = {
-  name: 'Kaori',
-  age: 24,
-  hobbies: ['sports', 'music']
-}
+let userInput: unknown;
+let userName: string;
 
-console.log(person)
+userInput = 6;
+userInput = "Kaori";
 
-for(const hobby of person.hobbies){
-  console.log(hobby.toUpperCase())
+if (typeof userInput === "string"){
+  userName = userInput
 }
